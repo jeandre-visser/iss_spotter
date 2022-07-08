@@ -35,7 +35,7 @@ const printFlyOverTimes = function(flyOverTimes) {
     const passingDuration = times.duration;
     console.log(`Next pass at ${time} for ${passingDuration} seconds`);
   }
-}
+};
 
 nextISSTimesForMyLocation((error, nextTimes) => {
   if (error) {
