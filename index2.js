@@ -3,8 +3,8 @@ const { printFlyOverTimes } = require('./index');
 
 nextISSTimesForMyLocation()
   .then(flyOverTimes => {
-    printFlyOverTimes(flyOverTimes);;
+    printFlyOverTimes(flyOverTimes);
   })
   .catch(error => {
-    console.log("It didn't work: ", error)
+    console.log("It didn't work: ", error);
   });
